@@ -1,0 +1,172 @@
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	font: 13px/20px "Ubuntu", Arial, sans-serif;
+	color: #4F5155;
+	text-transform: uppercase;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#body {
+	margin: 0 15px 0 15px;
+}
+
+p.footer {
+	text-align: right;
+	font-size: 11px;
+	border-top: 1px solid #D0D0D0;
+	line-height: 32px;
+	padding: 0 10px 0 10px;
+	margin: 20px 0 0 0;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+input, textarea, select {
+	width: 350px;
+	height: 40px;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+
+.eminutes-menu li a {
+	text-transform: uppercase;
+}
+
+#container {
+	padding: 25px;
+}
+
+.login-btn, .register-btn {
+	width: 200px;
+	text-transform: uppercase;
+}
+
+.meeting-hm-img {
+	padding: 4px;
+	margin-bottom: 20px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+/* #F5F5F5 */
+
+.registration-page  {
+
+}
+
+.emin-actions {
+	list-style-type: none;
+}
+
+.emin-actions li a {
+	text-decoration: none;
+	color: #555;
+	font-size: 1em;
+}
+
+.action-td button a, .view, .delete, .update {
+	color: white !important; 
+	text-transform: uppercase; 
+	font-size: 11px;
+}
+	
+.tbl-data th, .tbl-data td { 
+	text-align: center; 
+}
+	
+.tbl-data tbody tr td {
+	vertical-align: middle;
+	font-size: 15px;
+}
+
+.alert {  
+	width: 80% !important;
+}
+
+.article-header {
+	margin-top: 25px;
+	margin-bottom: 25px;
+    border-bottom: 3px solid #0066CC;
+    color: #0066CC;
+    font-size: 18pt;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.article-sub-header {
+	color: #0066CC;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.graph-container {
+    padding: 30px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #eee;
+    margin: 10px 0;
+    position: relative;
+}
+
+.graph-container .caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.agenda-tbl td {
+	border: none !important;
+}
+
+.agenda-tbl input {
+	width: 80% !important;
+}
+
+.agenda-tbl tr.agenda-title {
+    border-bottom: 2px solid #ddd !important;
+    vertical-align: bottom;
+}
+
+.registration-page .row {
+	vertical-align: middle;
+	margin: 5px;
+}
